@@ -1,0 +1,31 @@
+body
+  position: relative
+  header
+    background-color: $black
+    height: 38px
+    .header-top
+      +flex_3 
+      padding: 9px 0
+      gap: 425px 
+      .header-top-text
+        display: flex
+        gap: 5px
+        .sign-up
+          color: $white
+          +s-r-14
+        a
+          font-weight: 600 !important
+          position: relative
+          &::after
+            content: ''
+            position: absolute
+            left: 0
+            bottom: 1px
+            width: 100%
+            border-bottom: 1.5px solid white
+      i
+        color: $white
+        font-size: 20px
+        cursor: pointer
+
+        

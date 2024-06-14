@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+	text-decoration: none;
+	outline: none;
+	list-style-type: none;
+	border: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #fff !important;
+}
+
+
+html,body{
+	width: 100%;
+	height: 100%;
+	/* overflow: hidden; */
+}
+
+body.modal-open{
+	padding-right: 0 !important;
+}
+
+ul{
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+p{
+	margin-bottom: 0;
+}
+
+a{
+	display:inline-block ;
+	color: white;
+}
+
+input,
+select{
+	appearance:none;
+	-moz-appearance:none; /* Firefox */
+	-webkit-appearance:none; /* Safari and Chrome */
+}
+
+button:focus{
+	outline: none !important;
+}
+textarea::-webkit-scrollbar {
+	width: 12px;
+}
+
+textarea::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px transparent;
+}
+
+textarea::-webkit-scrollbar-thumb {
+background-color: #273C74;
+outline: 1px solid transparent;
+border-radius: 6px;
+border: 3px solid #F5F9FE;
+}
+
+a{
+	text-decoration: none !important;
+}
+a:hover{
+	color: white !important;
+}
+
+b, strong{
+	font-weight: bold;
+}
+
+.has_bg{
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+/* Firefox */
+
+input[type=number] {
+  -moz-appearance: textfield !important;
+}
